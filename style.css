@@ -1,0 +1,119 @@
+body{
+    font-family: 'Benne', serif;
+    font-size: 16px;
+}
+.elements-center{
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+}
+.elements-center img{
+  width: 300px;
+  height: auto;
+}
+.bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.bar li{
+    display: inline;
+}
+.bar a{
+    text-decoration: none;
+    color: black;
+}
+.top{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+}
+.bottom{
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(168, 167, 161, 0.822);  
+    text-align: center;
+}
+.bar-el{
+    display: inline;
+}
+.div-left{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 20px;
+}
+.div-left li{
+    margin-left: 15px;
+}
+.div-right{
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 20px;
+}
+.div-right li{
+    margin-right:20px;
+}
+#search{
+    width: 600px;
+    height: 35px;
+    border-radius: 25px;
+    border: 1px solid #afafaf;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none; 
+    font-size: 20px;
+}
+.box-out{
+    margin-top: 30px;
+}
+.box{
+    display: inline;
+    width: 100px;
+    padding: 10px;
+    padding-bottom: 5px;
+    background-color: #e0e0e0;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 17px;
+
+}
+.elements-center p{
+    margin-top: 30px;
+    
+}
+.elements-center a{
+    text-decoration: none;
+    color: red;
+}
+li:hover{
+    text-decoration: underline;
+}
+.icon{
+    opacity: 0.5;
+}
+.icon:hover{
+    opacity: 1;
+}
+
+    
